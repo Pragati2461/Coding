@@ -15,7 +15,6 @@ class Something{
 	}
 
         void print(){
-            // Comment
             cout << num1;
         }
 
