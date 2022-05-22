@@ -15,18 +15,19 @@ class Something{
 	}
 
         void print(){
-            // this is cout statement
+           // this is cout statement
             cout << num1;
         }
 
-        // Add sub2 function here.
+        void sub2(){
+            num1 -= 2;
+        }
 };
 
 int main(){
     Something s;
 
     s.set();
-
     s.add2();
 
     s.print();
