@@ -15,7 +15,12 @@ class Something{
 	}
 
         void print(){
+            // Comment
             cout << num1;
+        }
+
+        void sub2(){
+            num1 -= 2;
         }
 };
 
@@ -23,16 +28,9 @@ int main(){
     Something s;
 
     s.set();
-
-<<<<<<< HEAD
     s.add2();
 
-    cout << s.num1;
-=======
     s.print();
-
-    // cout << s.num1;
->>>>>>> dev
 
     return 0;
 }
