@@ -9,8 +9,13 @@ class Something{
             cin >> num1;
         }
 
+
         void add2(){
             num1 += 2;
+	}
+
+        void print(){
+            cout << num1;
         }
 };
 
@@ -19,9 +24,15 @@ int main(){
 
     s.set();
 
+<<<<<<< HEAD
     s.add2();
 
     cout << s.num1;
+=======
+    s.print();
+
+    // cout << s.num1;
+>>>>>>> dev
 
     return 0;
 }
