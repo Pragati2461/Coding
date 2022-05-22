@@ -15,8 +15,11 @@ class Something{
 	}
 
         void print(){
+            // this is cout statement
             cout << num1;
         }
+
+        // Add sub2 function here.
 };
 
 int main(){
@@ -24,15 +27,9 @@ int main(){
 
     s.set();
 
-<<<<<<< HEAD
     s.add2();
 
-    cout << s.num1;
-=======
     s.print();
-
-    // cout << s.num1;
->>>>>>> dev
 
     return 0;
 }
