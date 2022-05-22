@@ -8,6 +8,10 @@ class Something{
             cout << "Enter value : ";
             cin >> num1;
         }
+
+        void print(){
+            cout << num1;
+        }
 };
 
 int main(){
@@ -15,7 +19,9 @@ int main(){
 
     s.set();
 
-    cout << s.num1;
+    s.print();
+
+    // cout << s.num1;
 
     return 0;
 }
