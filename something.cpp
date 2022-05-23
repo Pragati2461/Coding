@@ -15,7 +15,6 @@ class Something{
 	}
 
         void print(){
-           // this is cout statement
             cout << num1;
         }
 
